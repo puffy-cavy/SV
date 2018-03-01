@@ -272,7 +272,8 @@ module ISDU (   input logic         Clk,
 			S_32 : 
 				LD_BEN = 1'b1;
 			S_01 : //ADD
-				begin 
+				begin
+					SR1MUX = 1'b0;
 					SR2MUX = IR_5;
   					GateALU = 1'b1;
 					GateMARMUX = 1'b0;

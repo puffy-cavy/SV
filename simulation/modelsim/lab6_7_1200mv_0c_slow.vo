@@ -17,14 +17,14 @@
 // PROGRAM "Quartus II 64-Bit"
 // VERSION "Version 15.0.2 Build 153 07/15/2015 SJ Full Version"
 
-// DATE "02/26/2018 20:37:47"
+// DATE "03/01/2018 15:06:04"
 
 // 
 // Device: Altera EP4CE115F29C7 Package FBGA780
 // 
 
 // 
-// This Verilog file should be used for ModelSim (Verilog) only
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
 // 
 
 `timescale 1 ps/ 1 ps

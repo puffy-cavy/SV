@@ -1,5 +1,5 @@
 EDA Netlist Writer report for lab6
-Mon Feb 26 20:37:49 2018
+Thu Mar 01 15:06:06 2018
 Quartus II 64-Bit Version 15.0.2 Build 153 07/15/2015 SJ Full Version
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Mon Feb 26 20:37:49 2018 ;
+; EDA Netlist Writer Status ; Successful - Thu Mar 01 15:06:06 2018 ;
 ; Revision Name             ; lab6                                  ;
 ; Top-level Entity Name     ; lab6_toplevel                         ;
 ; Family                    ; Cyclone IV E                          ;
@@ -45,42 +45,42 @@ agreement for further details.
 +---------------------------+---------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------+
-; Simulation Settings                                                                                                    ;
-+---------------------------------------------------------------------------------------------------+--------------------+
-; Option                                                                                            ; Setting            ;
-+---------------------------------------------------------------------------------------------------+--------------------+
-; Tool Name                                                                                         ; ModelSim (Verilog) ;
-; Generate netlist for functional simulation only                                                   ; Off                ;
-; Time scale                                                                                        ; 1 ps               ;
-; Truncate long hierarchy paths                                                                     ; Off                ;
-; Map illegal HDL characters                                                                        ; Off                ;
-; Flatten buses into individual nodes                                                               ; Off                ;
-; Maintain hierarchy                                                                                ; Off                ;
-; Bring out device-wide set/reset signals as ports                                                  ; Off                ;
-; Enable glitch filtering                                                                           ; Off                ;
-; Do not write top level VHDL entity                                                                ; Off                ;
-; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                ;
-; Architecture name in VHDL output netlist                                                          ; structure          ;
-; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                ;
-; Generate third-party EDA tool command script for gate-level simulation                            ; Off                ;
-+---------------------------------------------------------------------------------------------------+--------------------+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                           ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Option                                                                                            ; Setting                   ;
++---------------------------------------------------------------------------------------------------+---------------------------+
+; Tool Name                                                                                         ; ModelSim-Altera (Verilog) ;
+; Generate netlist for functional simulation only                                                   ; Off                       ;
+; Time scale                                                                                        ; 1 ps                      ;
+; Truncate long hierarchy paths                                                                     ; Off                       ;
+; Map illegal HDL characters                                                                        ; Off                       ;
+; Flatten buses into individual nodes                                                               ; Off                       ;
+; Maintain hierarchy                                                                                ; Off                       ;
+; Bring out device-wide set/reset signals as ports                                                  ; Off                       ;
+; Enable glitch filtering                                                                           ; Off                       ;
+; Do not write top level VHDL entity                                                                ; Off                       ;
+; Disable detection of setup and hold time violations in the input registers of bi-directional pins ; Off                       ;
+; Architecture name in VHDL output netlist                                                          ; structure                 ;
+; Generate third-party EDA tool command script for RTL functional simulation                        ; Off                       ;
+; Generate third-party EDA tool command script for gate-level simulation                            ; Off                       ;
++---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+--------------------------------------------------------------+
-; Simulation Generated Files                                   ;
-+--------------------------------------------------------------+
-; Generated Files                                              ;
-+--------------------------------------------------------------+
-; U:/LAB6 _2/simulation/modelsim/lab6_7_1200mv_85c_slow.vo     ;
-; U:/LAB6 _2/simulation/modelsim/lab6_7_1200mv_0c_slow.vo      ;
-; U:/LAB6 _2/simulation/modelsim/lab6_min_1200mv_0c_fast.vo    ;
-; U:/LAB6 _2/simulation/modelsim/lab6.vo                       ;
-; U:/LAB6 _2/simulation/modelsim/lab6_7_1200mv_85c_v_slow.sdo  ;
-; U:/LAB6 _2/simulation/modelsim/lab6_7_1200mv_0c_v_slow.sdo   ;
-; U:/LAB6 _2/simulation/modelsim/lab6_min_1200mv_0c_v_fast.sdo ;
-; U:/LAB6 _2/simulation/modelsim/lab6_v.sdo                    ;
-+--------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                             ;
++--------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                        ;
++--------------------------------------------------------------------------------------------------------+
+; U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/lab6_7_1200mv_85c_slow.vo     ;
+; U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/lab6_7_1200mv_0c_slow.vo      ;
+; U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/lab6_min_1200mv_0c_fast.vo    ;
+; U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/lab6.vo                       ;
+; U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/lab6_7_1200mv_85c_v_slow.sdo  ;
+; U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/lab6_7_1200mv_0c_v_slow.sdo   ;
+; U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/lab6_min_1200mv_0c_v_fast.sdo ;
+; U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/lab6_v.sdo                    ;
++--------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -89,20 +89,20 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 15.0.2 Build 153 07/15/2015 SJ Full Version
-    Info: Processing started: Mon Feb 26 20:37:46 2018
+    Info: Processing started: Thu Mar 01 15:06:03 2018
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off lab6 -c lab6
-Info (204019): Generated file lab6_7_1200mv_85c_slow.vo in folder "U:/LAB6 _2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file lab6_7_1200mv_0c_slow.vo in folder "U:/LAB6 _2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file lab6_min_1200mv_0c_fast.vo in folder "U:/LAB6 _2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file lab6.vo in folder "U:/LAB6 _2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file lab6_7_1200mv_85c_v_slow.sdo in folder "U:/LAB6 _2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file lab6_7_1200mv_0c_v_slow.sdo in folder "U:/LAB6 _2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file lab6_min_1200mv_0c_v_fast.sdo in folder "U:/LAB6 _2/simulation/modelsim/" for EDA simulation tool
-Info (204019): Generated file lab6_v.sdo in folder "U:/LAB6 _2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file lab6_7_1200mv_85c_slow.vo in folder "U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file lab6_7_1200mv_0c_slow.vo in folder "U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file lab6_min_1200mv_0c_fast.vo in folder "U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file lab6.vo in folder "U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file lab6_7_1200mv_85c_v_slow.sdo in folder "U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file lab6_7_1200mv_0c_v_slow.sdo in folder "U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file lab6_min_1200mv_0c_v_fast.sdo in folder "U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/" for EDA simulation tool
+Info (204019): Generated file lab6_v.sdo in folder "U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 591 megabytes
-    Info: Processing ended: Mon Feb 26 20:37:49 2018
-    Info: Elapsed time: 00:00:03
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 592 megabytes
+    Info: Processing ended: Thu Mar 01 15:06:07 2018
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:02
 
 

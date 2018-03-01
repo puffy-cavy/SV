@@ -24,13 +24,13 @@
 //
 
 // 
-// This SDF file should be used for ModelSim (Verilog) only
+// This SDF file should be used for ModelSim-Altera (Verilog) only
 // 
 
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "lab6_toplevel")
-  (DATE "02/26/2018 20:37:49")
+  (DATE "03/01/2018 15:06:06")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 64-Bit")
   (VERSION "Version 15.0.2 Build 153 07/15/2015 SJ Full Version")

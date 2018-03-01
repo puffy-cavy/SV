@@ -1,0 +1,44 @@
+Quartus II Archive log --	U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/lab6_tmp_archive.qarlog
+
+Archive:	U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/lab6_tmp_archive.qar
+Date:		Thu Mar 01 15:26:35 2018
+Quartus II 64-Bit		15.0.2 Build 153 07/15/2015 SJ Full Version
+
+	=========== Files Selected: ===========
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/ALU.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/ALU_address.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/HexDriver.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/ISDU.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/Mem2IO.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/SLC3_2.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/ben.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/bus.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/datapath.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/db/lab6.cmp.rdb
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/four_one_mux.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/general_register.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/lab6.qpf
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/lab6.qsf
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/lab6_assignment_defaults.qdf
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/lab6_toplevel.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/memory_contents.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/output_files/Chain2.cdf
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/reg_file.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/slc3.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/synchronizer.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/test_memory.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/testbench.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/testbench2.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/tristate.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/two_one_mux.sv
+U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/two_one_mux_3bit.sv
+	======= Total: 27 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Thu Mar 01 15:26:40 2018
+Source archive file:	U:/lab6_2backup/LAB6 _2-20180301T204920Z-001/LAB6 _2/lab6_tmp_archive.qar
+Archive was extracted into	I:/zzhu39_nlyu2/
+		 - successfully.
