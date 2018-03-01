@@ -1,0 +1,9 @@
+module ben(input logic Clk,
+			              reset,
+			              load,
+							  LD_BEN,
+							  LD_CC,
+			  input logic[2:0] IR_11_9,
+			  input logic[15:0] logic_input,
+			  output logic ben_output
+			  );

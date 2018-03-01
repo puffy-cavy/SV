@@ -1,0 +1,7 @@
+Register reg_module(input logic Clk,
+				 input logic reset.
+				 input logic load,
+             input logic [15:0]  data_in,
+				 output logic [15:0]  data_out);
+			
+always_ff @ (posedge Clk)

@@ -1,0 +1,251 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do lab6_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/synchronizer.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:54 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/synchronizer.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 15:13:54 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/HexDriver.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:54 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 15:13:54 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/tristate.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:55 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/tristate.sv 
+# -- Compiling module tristate
+# 
+# Top level modules:
+# 	tristate
+# End time: 15:13:55 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/Mem2IO.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:55 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 15:13:55 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/ISDU.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:55 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 15:13:55 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/bus.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:55 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/bus.sv 
+# -- Compiling module bus
+# 
+# Top level modules:
+# 	bus
+# End time: 15:13:55 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/reg_file.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:55 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/reg_file.sv 
+# -- Compiling module reg_file
+# 
+# Top level modules:
+# 	reg_file
+# End time: 15:13:55 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/ALU.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:55 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 15:13:56 on Feb 27,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/general_register.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:56 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/general_register.sv 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 15:13:56 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/four_one_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:56 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/four_one_mux.sv 
+# -- Compiling module four_one_mux
+# 
+# Top level modules:
+# 	four_one_mux
+# End time: 15:13:56 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/two_one_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:56 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/two_one_mux.sv 
+# -- Compiling module two_one_mux
+# 
+# Top level modules:
+# 	two_one_mux
+# End time: 15:13:56 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/ben.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:56 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/ben.sv 
+# -- Compiling module ben
+# -- Compiling module logic_low
+# -- Compiling module nzp
+# -- Compiling module logic_up
+# -- Compiling module ben_register
+# 
+# Top level modules:
+# 	ben
+# End time: 15:13:56 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/two_one_mux_3bit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:56 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/two_one_mux_3bit.sv 
+# -- Compiling module two_one_mux_3bit
+# 
+# Top level modules:
+# 	two_one_mux_3bit
+# End time: 15:13:56 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/ALU_address.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:57 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/ALU_address.sv 
+# -- Compiling module ALU_address
+# 
+# Top level modules:
+# 	ALU_address
+# End time: 15:13:57 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/datapath.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:57 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/datapath.sv 
+# -- Compiling module datapath
+# -- Compiling module register_pc
+# 
+# Top level modules:
+# 	datapath
+# End time: 15:13:57 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/slc3.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:57 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 15:13:57 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/lab6_toplevel.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:57 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/lab6_toplevel.sv 
+# -- Compiling module lab6_toplevel
+# 
+# Top level modules:
+# 	lab6_toplevel
+# End time: 15:13:57 on Feb 27,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+U:/LAB6\ _2 {U:/LAB6 _2/testbench.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:13:57 on Feb 27,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+U:/LAB6 _2" U:/LAB6 _2/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 15:13:58 on Feb 27,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -gui "+altera" -l msim_transcript -do "lab6_run_msim_rtl_verilog.do" 
+# Start time: 15:13:58 on Feb 27,2018
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.lab6_toplevel
+# Loading work.slc3
+# Loading work.HexDriver
+# Loading work.datapath
+# Loading work.four_one_mux
+# Loading work.register_pc
+# Loading work.register
+# Loading work.two_one_mux
+# Loading work.two_one_mux_3bit
+# Loading work.reg_file
+# Loading work.ALU
+# Loading work.ALU_address
+# Loading work.ben
+# Loading work.logic_low
+# Loading work.nzp
+# Loading work.logic_up
+# Loading work.ben_register
+# Loading work.bus
+# Loading work.Mem2IO
+# Loading work.tristate
+# Loading work.ISDU
+# Loading work.sync
+# ** Warning: (vsim-3017) U:/LAB6 _2/slc3.sv(104): [TFMPC] - Too few port connections. Expected 3, found 2.
+# 
+#         Region: /testbench/tp/my_slc/enable_sync[0]
+# ** Warning: (vsim-3722) U:/LAB6 _2/slc3.sv(104): [TFMPC] - Missing connection for port 'q'.
+# 
+# ** Warning: (vsim-3017) U:/LAB6 _2/slc3.sv(104): [TFMPC] - Too few port connections. Expected 3, found 2.
+# 
+#         Region: /testbench/tp/my_slc/enable_sync[1]
+# ** Warning: (vsim-3722) U:/LAB6 _2/slc3.sv(104): [TFMPC] - Missing connection for port 'q'.
+# 
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 500 ns
+# End time: 15:14:30 on Feb 27,2018, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 4

@@ -1,0 +1,11 @@
+module four_one_mux(input logic [1:0] select,
+						  input logic [15:0] input0,
+						  input logic [15:0] input1,
+						  input logic [15:0] input2,
+						  input logic [15:0] input3,
+						  output logic [15:0] output_mux
+);
+		always_comb
+			
+		end
+endmodule
